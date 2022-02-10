@@ -30,7 +30,7 @@ def addVertex(file):
                     vert.property(key,data[key])
             if label =='hostname':
                 data=dict(zip(host_key, line_splits))
-                for key in host_key[2:len(netConn_key)]:
+                for key in host_key[2:len(host_key)]:
                     vert.property(key,data[key])
             if label =='port':
                 data = dict(zip(port_key, line_splits))

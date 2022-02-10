@@ -1,0 +1,2 @@
+# janusGraphForPython
+python 导入小批量数据到hbase-es存储后端的janusgrapah
